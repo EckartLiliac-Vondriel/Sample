@@ -1,0 +1,518 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* start navigation */
+nav
+{
+    width: 100%;
+    height: 100px;
+    background-color: palevioletred;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+
+    box-shadow: 0px 3px 5px rgb(240, 180, 200)
+}
+
+body
+{
+    cursor:default;
+}
+
+nav .navimg img
+{
+    width: 100px;
+    height: 100px;
+}
+
+nav .menu ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+    margin-top: 20px;
+    gap: 20px;
+}
+
+nav .menu ul li
+{
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding: 15px 35px;
+    font-size: 1.2rem;
+    cursor: pointer; 
+}
+
+nav .menu ul #right
+{
+    margin-right: 20px;
+}
+
+nav .menu ul li:hover
+{
+    background-color: white;
+    border-radius: 18px;
+}
+/* end navigation */
+
+/* start banner */
+.banner
+{
+    width: 100%;
+    height: 80vh;
+    padding-top: 20vh;
+
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+}
+
+.banner #banner
+{
+    /* background-color:rgb(240, 180, 200); */
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.banner #banner h1
+{
+    margin-top: 110px;
+    font-size: 3.1rem;
+    color:rgb(201, 126, 151);
+    text-shadow: 4px 3px 5px;
+}
+
+.banner #banner h2
+{
+    color:rgb(201, 126, 151);
+    font-size: 2.8rem;
+    text-shadow: 4px 3px 5px;
+    margin-bottom: 9px;
+}
+
+.banner #banner p
+{
+    font-size: 1rem;
+    margin-bottom: 28px;
+}
+
+.banner #banner a
+{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color:rgb(201, 126, 151);
+    text-align: center;
+    padding: 7px 60px 7px 60px;
+    border: 1px dashed rgb(231, 115, 115);
+    border-radius:30%;
+}
+
+.banner #banner a:hover
+{
+    color: white;
+    background-color: rgb(240, 180, 200);
+    font-style: italic;
+}
+
+.banner #bannerimg
+{
+    width: 500px;
+    height: 430px;
+    /* background-color:rgb(201, 126, 151); */
+    margin-left: 130px;
+}
+
+/* end banner */
+
+/* start content */
+.content
+{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(41, 116, 116);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content .main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content #content
+{
+    width: 280px;
+    height: 420px;
+    background-color:rgb(201, 126, 151);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border-radius: 3px;
+}
+
+.content #content #contentimg
+{
+    width: 250px;
+    height: 250px;
+}
+
+.content #content #contentimg img
+{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+    text-align: center;
+}
+
+#content #fact h2
+{
+    font-size: 2.3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-shadow:3px 3px 4px rgb(240, 180, 200)
+}
+
+#content #fact h3
+{
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+#content #fact p
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* color:rgb(201, 126, 151); */
+    margin-bottom: 15px;
+}
+
+#content #fact a
+{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    padding: 5px 75px;
+    border-radius: 10px;
+    background-color:rgb(201, 126, 151);
+    box-shadow: 0px 3px 5px palevioletred;
+}
+
+#content #fact a:hover
+{
+    font-style: italic;
+    cursor: pointer;
+    padding: 7px 75px;
+}
+/* End content */
+
+/* Start Customize */
+.customize
+{
+    width: 100%;
+    height: 80vh;
+    background-color:rgba(255, 228, 196, 0.728);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    padding-top: 40px;
+    border: 2px dashed black;
+    border-left: none;
+    border-right: none; 
+}
+
+.customize #cusimg
+{
+    width: 360px;
+    height: 433px;
+    background-color: rgb(196, 193, 125);
+    margin-left: 20px;
+    border-radius:  6px;
+}
+
+.customize #cusimg img
+{
+    width: 300px;
+    padding: 26px 30px 1px 30px;
+
+}
+
+.customize #cusimg p
+{
+    width: 285px;
+    margin-left: 30px;
+    text-align: justify;
+    font-size: 1rem;
+    padding: 7px;
+    border: 1px solid;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* border-radius: 0px 0px 6px 6px; */
+}
+
+.customize #custext
+{
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(rgb(251, 192, 202),white);
+    margin-top: 45px;
+    border-radius: 20px 5px 20px;
+}
+
+.customize #custext h2
+{
+    text-align: center;
+    font-size: 2.3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(234, 109, 138);
+    margin-bottom: 17px;
+    margin-top: 15px;
+}
+
+#custext form 
+{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#custext form div
+{
+    width: 70%;
+    height: 45px;
+    background-color: rgb(201, 126, 151);
+    border-radius: 9px;
+    box-shadow: 0px 5px 5px #ffffff;
+    padding: 0px 20px ;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+#custext form #cusname
+{
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+#custext form #cusname::placeholder
+{
+    color:#ffffff;
+    padding-left: 10px;
+    font-size: 12pt;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fa-paper-plane
+{
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+    padding-right: 20px;
+}
+
+.fa-paper-plane:hover
+{
+    color:rgb(216, 102, 140);
+    text-shadow: 0px  3px 3px #ffffff;
+}
+
+#custext form div input
+{
+    width: 150px;
+    height: 23px;
+    
+}
+/* End Customize */
+
+/* Start Address */
+.address
+{
+    width: 100%;
+    height: 110vh;
+    background-color:rgb(196, 193, 125);
+
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 220px;
+    align-items:start;
+}
+
+.address #address
+{
+    width: 430px;
+    height: 500px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    margin-top: 30px;
+    margin-left: 190px;
+}
+
+.address #address div
+{
+    width: 150px;
+    height: 140px;
+    background-color: #ffffff;
+
+    margin: auto;
+    padding: 0px 10px;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 10px;
+}
+
+.address #address i
+{
+    margin-bottom: 13px;
+    font-size: 2.3rem;
+    margin-top: 10px;
+}
+
+.address #address h3
+{
+    font-size: 1.4rem;
+}
+
+.address #address p
+{
+    padding: 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.address #address p:hover
+{
+    font-style: italic;
+    color:rgb(196, 193, 125);   
+}
+
+.address #address #map
+{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    background-color: transparent;
+}
+
+.address .load
+{
+    /* background-color: rgb(168, 168, 235); */
+    width: 300px;
+    margin-top: 30px;
+}
+
+.address .load h1
+{
+    text-align: center;
+    font-size: 1.8rem;
+    color:rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.address .load p
+{
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+
+.address .load label
+{
+    font-size: 1.2rem;
+}
+
+.address .load input
+{
+    width: 280px;
+    height: 29px;
+    padding-left: 15px;
+    margin-top: 6px;
+    border-radius: 10px;
+    border: outset;
+}
+
+.address .load textarea
+{
+    width: 280px;
+    margin-top: 6px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border: outset;
+}
+
+.address .load textarea::placeholder
+{
+    font-size: 0.84rem;
+    font-family: sans-serif;
+}
+
+.address .load button
+{
+    width: 290px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 1px;
+    background-color: #ffffff;
+
+    font-size: 1.2rem;
+    font-family: serif;
+    border: none;
+    box-shadow: 0px 3px 5px;
+}
+
+.address .load button:hover
+{
+    border: 1px solid white;
+    box-shadow: 0px 3px 3px rgb(238, 200, 213);
+    
+    height: 41px;
+    color:rgb(201, 126, 151);
+}
+/* End Address */
+
+/* Start Footer */
+footer
+{
+    width: 100%;
+    height: 28px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    
+    color:rgb(189, 99, 129);
+    font-style: italic;
+    cursor:default;
+    font-size: 1.1rem;
+}
