@@ -51,6 +51,12 @@ nav .menu ul li
     cursor: pointer; 
 }
 
+nav .menu a
+{
+    text-decoration: none;
+    color: black;
+}
+
 nav .menu ul #right
 {
     margin-right: 20px;
