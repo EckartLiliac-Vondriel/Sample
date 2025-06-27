@@ -380,8 +380,8 @@ nav .menu ul li:hover
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 
-    margin-top: 30px;
-    margin-left: 190px;
+    top: 30px;
+    left: 190px;
 }
 
 .address #address div
