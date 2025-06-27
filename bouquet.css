@@ -76,7 +76,7 @@ nav .menu ul li:hover
 .banner
 {
     width: 100%;
-    height: 470px;
+    height: 80vh;
     padding-top: 20vh;
 
     display: flex;
@@ -92,7 +92,7 @@ nav .menu ul li:hover
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 200px;
+    left: 200px;
 }
 
 .banner #banner h1
