@@ -366,8 +366,8 @@ nav .menu ul li:hover
     background-color:rgb(196, 193, 125);
 
     display: flex;
-    /* justify-content: space-around; */
-    gap: 220px;
+    justify-content: space-around;
+    /*gap: 220px;*/
     align-items:start;
 }
 
@@ -380,8 +380,7 @@ nav .menu ul li:hover
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 
-    top: 30px;
-    left: 190px;
+    padding: 10px 0px;
 }
 
 .address #address div
